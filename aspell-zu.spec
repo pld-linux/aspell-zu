@@ -1,5 +1,5 @@
 Summary:	Zulu dictionary for aspell
-Summary(pl):	Zuluski s這wnik dla aspella
+Summary(pl):	S這wnik zuluski dla aspella
 Name:		aspell-zu
 Version:	0.50
 %define	subv	0
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Zulu dictionary (i.e. word list) for aspell.
 
 %description -l pl
-Zuluski s這wnik (lista s堯w) dla aspella.
+S這wnik (lista s堯w) zuluski dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
