@@ -1,5 +1,5 @@
 Summary:	Zulu dictionary for aspell
-Summary(pl):	Zuluski s≥ownik dla aspella
+Summary(pl.UTF-8):   Zuluski s≈Çownik dla aspella
 Name:		aspell-zu
 Version:	0.50
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Zulu dictionary (i.e. word list) for aspell.
 
-%description -l pl
-Zuluski s≥ownik (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+Zuluski s≈Çownik (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
